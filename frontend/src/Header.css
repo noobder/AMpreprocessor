@@ -1,0 +1,100 @@
+.head{
+    font-size: large;
+    font: bold;
+    color: brown;
+    font-size: 50px;
+    padding: 10px;
+    font-weight: bold;
+    font-style:oblique;
+
+}
+
+
+
+.but{
+    margin: 20px;
+    justify-items: center;
+    font-weight: bold;
+
+    
+}
+button{
+    top:50%;
+    background-color:brown;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px
+}
+button:hover {
+    background-color:rgb(216, 92, 92);
+    transition: 0.2s;
+}
+.screens{
+
+    display:flex;
+    
+}
+
+.screen{   
+    padding:10px; 
+    height:78vh;
+    width:50%;
+    border: 3px;
+    border-color:brown;
+    border-radius: 10px;
+    border-style: double;
+    justify-content: center;
+    overflow: auto;
+    border-width: 5px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    margin:5px;
+    
+}
+.content{
+    margin:10px;
+    width:100%
+
+}
+.container {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(215, 162, 162);
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #838483;
+    color: rgb(0, 0, 0);
+  }
+  
+
+  .loading-text {
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    
+  }
+  
+  button:disabled {
+    background-color: brown;
+    cursor: not-allowed;
+  }
+  
